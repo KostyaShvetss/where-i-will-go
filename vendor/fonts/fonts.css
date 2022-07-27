@@ -1,1 +1,15 @@
-/* Нужно 2 вида шрифта: normal и bold */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url(./Inter-Regular.woff) format('woff'),
+  url(./Inter-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url(./Inter-Bold.woff) format('woff'),
+  url(./Inter-Bold.woff2) format('woff2');
+}

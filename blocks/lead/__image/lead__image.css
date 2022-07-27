@@ -1,0 +1,8 @@
+.lead__image {
+  grid-area: image;
+  max-width: 100%;
+  min-height: 356px;
+  background-image: url(../../../images/intro-image.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

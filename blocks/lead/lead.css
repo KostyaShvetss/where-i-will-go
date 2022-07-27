@@ -1,0 +1,10 @@
+.lead {
+  max-width: (100% - 65px - 160px);
+  border: 1px solid red;
+  margin: 80px 160px 0 65px;
+  display: grid;
+  grid-template-columns: 1fr 356px;
+  grid-template-areas:
+  "texts image";
+  column-gap: 170px;
+}

@@ -1,0 +1,7 @@
+.lead__texts {
+  grid-area: texts;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 32px;
+}

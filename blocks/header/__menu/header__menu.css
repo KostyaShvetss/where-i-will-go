@@ -1,0 +1,14 @@
+.header__menu {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 39px;
+}
+
+@media screen and (max-width: 360px) {
+  .header__menu {
+    justify-content: space-between;
+    gap: 0;
+  }
+}
