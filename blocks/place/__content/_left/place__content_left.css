@@ -1,0 +1,4 @@
+.place__content_left {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
