@@ -1,0 +1,13 @@
+.footer__year {
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+}
+
+@media screen and (max-width: 340px) {
+  .footer__year {
+    font-size: 20px;
+  }
+}

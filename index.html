@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,40 +24,76 @@
       </div>
       <div class="lead__image"></div>
     </section>
+    <!-- Ох, как же у меня чесались руки, чтобы просто взять и обрезать эти картинки в фотошопе, ничего толкового я из них так придумать и не смог -->
     <section class="places">
       <div class="place">
-        <!-- может тут всё-таки сделать через div place__image -->
         <div class="place__image-container">
           <img src="./images/places-forest.jpeg" alt="Лес" class="place__image">
         </div>
         <div class="place__content">
           <h2 class="place__title">Поеду в лес</h2>
-          <p class="place_text">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
-          <p class="place_text">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
+          <article class="place__paragraphs">
+            <p class="place__text">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
+            <p class="place__text">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
+          </article>
         </div>
       </div>
       <div class="place">
-        <img src="./images/places-mountains.jpeg" alt="Горы" class="place__image place__image_right">
+        <div class="place__image-container">
+          <img src="./images/places-mountains.jpeg" alt="Горы" class="place__image place__image_right">
+        </div>
         <div class="place__content place__content_left">
           <h2 class="place__title">Поеду в горы</h2>
-          <p class="place_text">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
+          <article class="place__paragraphs">
+            <p class="place__text">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
+          </article>
         </div>
       </div>
       <div class="place">
-        <img src="./images/places-black-sea.jpeg" alt="Черное море" class="place__image">
+        <div class="place__image-container place__image-container_wide">
+        <img src="./images/places-black-sea.jpeg" alt="Черное море" class="place__image place__image_wide">
+        </div>
         <div class="place__content">
           <h2 class="place__title">Поеду на Чёрное море</h2>
-          <p class="place_text">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.</p>
-          <p class="place_text">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
-          <p class="place_text">Уеду я.</p>
+          <article class="place__paragraphs">
+            <p class="place__text">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.</p>
+            <p class="place__text">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
+            <p class="place__text">Уеду я.</p>
+          </article>
         </div>
       </div>
     </section>
     <section class="opinions">
-      <!-- Отсюда начинаются твои секции, тут не буду накидывать разметку, потому что, вдруг, ты решение увидишь по-другому -->
+      <p class="opinions__caption">люди</p>
+      <h2 class="opinions__title">Что говорят и говорили люди о&nbsp;путешествиях</h2>
+      <div class="opinions__statements">
+        <div class="opinions__quotes">
+          <h3 class="opinions__author">Иван Бунин</h3>
+          <p class="opinions__quote">Человека делают счастливым три вещи: любовь, интересная работа и возможность путешествовать.</p>
+        </div>
+        <div class="opinions__quotes">
+          <h3 class="opinions__author">Альбер Камю</h3>
+          <p class="opinions__quote">Путешествие как самая великая и серьезная наука помогает нам вновь обрести себя.</p>
+        </div>
+        <div class="opinions__quotes">
+          <h3 class="opinions__author">Норвежская пословица</h3>
+          <p class="opinions__quote">Лишь тот, кто странствует, открывает новые пути.</p>
+        </div>
+        <div class="opinions__quotes">
+          <h3 class="opinions__author">Мария Захарова</h3>
+          <p class="opinions__quote">В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень рискованное предприятие.</p>
+        </div>
+      </div>
     </section>
     <footer class="footer">
-
+        <ul class="footer__copyright">
+          <il class="footer__year"><a href="#" target="_blank" class="footer__link">Сергей Кожин</a></il>
+          <il class="footer__year"><a href="https://practicum.yandex.ru/profile/web/" target="_blank" class="footer__link">Яндекс.Практикум</a></il>
+          <il class="footer__year"><a href="https://vk.com/kosty2106" target="_blank" class="footer__link">Костя Швец</a></il>
+        </ul>
+        <!-- <p class="footer__year"><a>Сергей Кожин</a> х <a href="https://practicum.yandex.ru/profile/web/" target="_blank">Яндекс.Практикум</a> х </p> -->
+        <p class="footer__year">&copy;2022</p>
+      </div>
     </footer>
   </div>
 

@@ -1,0 +1,14 @@
+.footer__copyright {
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 776px) {
+  .footer__copyright {
+    flex-direction: column;
+  }
+}

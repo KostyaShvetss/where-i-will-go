@@ -1,0 +1,28 @@
+.opinions__quote {
+  margin: 0;
+  max-width: 250px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #000000;
+  line-height: 1.53;
+  margin-right: 0;
+  align-self: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .opinions__quote{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .opinions__quote{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .opinions__quote{
+    font-size: 15px;
+  }
+}

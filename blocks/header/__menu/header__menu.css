@@ -1,5 +1,4 @@
 .header__menu {
-  border: 1px solid blue;
   display: flex;
   flex-direction: row;
   list-style-type: none;

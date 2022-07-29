@@ -1,0 +1,9 @@
+.place__paragraphs {
+  max-width: 360px;
+}
+
+@media screen and (max-width: 750px) {
+  .place__paragraphs {
+    align-self: center;
+  }
+}

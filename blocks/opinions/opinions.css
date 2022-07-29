@@ -1,0 +1,24 @@
+.opinions {
+  margin: 0;
+  padding: 133px 70px 127px;
+  max-width: 100vw;
+}
+
+@media screen and (max-width: 1024px) {
+  .opinions {
+    padding: 132px auto;
+  }
+}
+
+
+@media screen and (max-width: 743px) {
+  .opinions {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .opinions {
+    padding: 30px 20px;
+  }
+}

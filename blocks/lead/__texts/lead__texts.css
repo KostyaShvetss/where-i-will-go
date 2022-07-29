@@ -5,3 +5,9 @@
   flex-direction: column;
   row-gap: 32px;
 }
+
+@media screen and (max-width: 400px) {
+  .lead__texts {
+    row-gap: 16px;
+  }
+}

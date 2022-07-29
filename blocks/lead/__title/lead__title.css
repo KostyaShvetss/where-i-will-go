@@ -5,3 +5,9 @@
   line-height: 1.5;
   letter-spacing: 0.5px;
 }
+
+@media screen and (max-width: 977px) {
+  .lead__title {
+    font-size: 26px;
+  }
+}

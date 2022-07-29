@@ -2,7 +2,19 @@
   grid-area: image;
   max-width: 100%;
   min-height: 356px;
-  background-image: url(../../../images/intro-image.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url(../../../images/intro-image.jpeg);
+}
+
+@media screen and (max-width: 656px) {
+  .lead__image {
+    min-height: 250px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .lead__image {
+    min-width: 100vw;
+  }
 }
