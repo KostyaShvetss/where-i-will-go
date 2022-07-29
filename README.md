@@ -3,7 +3,7 @@
 Проект представляет собой одностраничный сайт, который состоит из нескольких секций.
 Над проектом работало 2 человека.
 
-- Ссылка страницу на GitHubPages: https://kostyashvetss.github.io/russian-travel/
+- Ссылка страницу на GitHubPages: [https://kostyashvetss.github.io/russian-travel/](https://kostyashvetss.github.io/where-i-will-go/)
 
 ## Используемые технологии
 
