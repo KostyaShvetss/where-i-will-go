@@ -11,8 +11,14 @@
 @media screen and (max-width: 880px) {
   .place__content {
     padding: 30px auto;
-    gap: 10px;
+    gap: 14px;
     justify-content: start;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .place__content {
+    padding: 0;
   }
 }
 
