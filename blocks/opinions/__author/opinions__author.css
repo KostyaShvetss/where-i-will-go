@@ -17,8 +17,10 @@
 @media screen and (max-width: 768px) {
   .opinions__author {
     font-size: 18px;
+    margin-bottom: 10px;
   }
 }
+
 
 
 @media screen and (max-width: 320px) {
